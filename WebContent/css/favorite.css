@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.fav_button{
+	width: 24px;
+	height: 24px;
+	border: none;
+	filter: invert(15%) sepia(95%) saturate(6932%) hue-rotate(358deg) brightness(95%) contrast(112%);
+}
+
+.fav_icon{
+	background: url("../images/favorite.svg") no-repeat;
+}
+
+.fav_icon:hover{
+	background: url("../images/favorite_border.svg") no-repeat;
+}
+
+.nofav_icon{
+	background: url("../images/favorite_border.svg") no-repeat;
+}
+.nofav_icon:hover{
+	background: url("../images/favorite.svg") no-repeat;
+}

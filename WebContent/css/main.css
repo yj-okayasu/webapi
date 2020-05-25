@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+.img{
+	float: left;
+	margin-right: 10px;
+	width: 75px;
+	position: relative;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+	height: 64px;
+}
+
+.logo{
+	height: 75px;
+}
+
+.tag{
+	border: solid 1px #d4d4d4;
+	padding: 0px 5px;
+	text-align: center;
+	width: 70px;
+	display: inline-block;
+	margin: 5px 5px 5px 0px;
+}
+
+.detail{
+	border-top: solid 1px #d4d4d4;
+	font-size: 13px;
+}
+
+.catch{
+	font-size: 15px;
+}
+
+.favorite{
+	float: right;
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+
+iframe{
+	border: none;
+}
+
+header{
+	width: 100%;
+	padding: 5px 0px 15px 0px;
+	margin: 0 auto;
+	text-align: center;
+  	background-color: #9CCC65;
+  	color: white;
+}
+.headline{
+	font-size: 64px;
+	font-family: "Gabriola";
+}
+
+input[type="text"], .frm input[type="submit"] {
+	-moz-box-sizing    : border-box;
+	-webkit-box-sizing : border-box;
+	box-sizing         : border-box;
+}
+
+input[type="text"]{
+	border-radius : 0.5em;          /* 角丸       */
+	width         : 20%; /* 横幅 */
+	height        : 30px;
+	border        : solid 1px #d4d4d4;
+	transition    : .3s;         /* なめらか変化 */
+}
+
+input[type="text"]:focus{
+	border-color  : #8bc34a;
+	outline       : none;
+}
+
+input[type="submit"] {
+	display       : inline-block;
+	border-radius : 0.5em;          /* 角丸       */
+	text-align    : center;      /* 文字位置   */
+	cursor        : pointer;     /* カーソル   */
+	padding       : 6px 15px;   /* 余白       */
+	background    : #8bc34a;     /* 背景色     */
+	color         : #ffffff;     /* 文字色     */
+	line-height   : 1em;         /* 1行の高さ  */
+	transition    : .3s;         /* なめらか変化 */
+	border        : 2px solid white;    /* 枠の指定 */
+	width         : auto; /* 横幅 */
+}
+
+input[type="submit"]:hover {
+	box-shadow    : none;        /* カーソル時の影消去 */
+	color         : #8bc34a;     /* 文字色     */
+	background    : #ffffff;     /* 背景色     */
+}
+
+.frm input[type="submit"]{
+	font-size: 12pt;
+}
+
+.status{
+	border-bottom: solid 2px #9CCC65;
+	margin: 5px 0px 25px 0px;
+	background-color: white;
+	color: black;
+	display: block;
+	min-width: 40em;
+	height: 35px;
+	vertical-align: center;
+	line-height: 40px;
+}
+
+.status-color{
+	width: 10px;
+	height: 100%;
+	background-color: #9CCC65;
+	float: left;
+	margin-right: 5px;
+}
+
+.menu input{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.menu {
+	list-style: none;
+	height: 0;
+	float: right;
+}
+
+.menu li {
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+}
+
+.menu input[type="submit"]{
+	font-size: 8pt;
+}
